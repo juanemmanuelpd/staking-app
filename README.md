@@ -41,9 +41,9 @@ A staking token based in ERC-20 protocol. Compiled and tested in Foundry.
 * `testCanOnlyWithdraw0WithoutDeposit()` -> Verify that nobody can withdraw if not deposited yet.
 * `testWithdrawTokensCorrectly()` -> Verify that users can withdraw tokens correctly before or after time staking period.
 * `testCanNotClaimIfNotStaking()` -> Verify that nobody can claim rewards if not staking.
-* `testCanNotClaimIfNotElapsedTime()` -> 
-* `testShouldRevertIfNotEth()` ->
-* `testCanClaimRewardsCorrectly()` ->
+* `testCanNotClaimIfNotElapsedTime()` -> Verify that nobody can claim rewards if the staking period not ends.
+* `testShouldRevertIfNotEth()` -> Verify that smart contract reverts if not enough ETH to give rewards.
+* `testCanClaimRewardsCorrectly()` -> Verificar que los usuarios puedan reclamar recompensas correctamente.
 
 CODE IS LAW!
 
