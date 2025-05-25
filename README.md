@@ -23,13 +23,13 @@ A staking token based in ERC-20 protocol. Compiled and tested in Foundry.
 ## Functions (Staking Token) 💻
 * `mint()` -> Mints tokens for can stake it.
 ## Functions (Staking App) 💻
-* `modifyStakingPeriod()` ->
-* `depositTokens()` ->
-* `withdrawTokens()` ->
-* `claimRewards()` ->
-* `receive()` ->
+* `modifyStakingPeriod()` -> Modify the time to lock your tokens and receive rewards.
+* `depositTokens()` -> Deposit a definite tokens to staking.
+* `withdrawTokens()` -> Withdraw all yours tokens in staking.
+* `claimRewards()` -> Claim the rewards for staking in the definite time.
+* `receive()` -> The admin enter to the smart contract the tokens that will be using to rewards the users for staking.
 ## Testing functions (Unit testing) ⌨️
-* `testStakingTokenMintsCorrectly()` -> 
+* `testStakingTokenMintsCorrectly()` ->  
 * `testStakingTokenCorrectlyDeployed()` ->
 * `testStakingAppCorrectlyDeployed()` ->
 * `testShouldRevertIfNotOwner()` ->
