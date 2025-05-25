@@ -39,9 +39,9 @@ A staking token based in ERC-20 protocol. Compiled and tested in Foundry.
 * `testDepositTokenCorrectly()` -> Verify that update correctly the balance and period in staking of the user when deposit ETH.
 * `testUserCanNotDepositMoreThanOnce()` -> Verify that nobody can deposit two or more times the definite quantity ETH.
 * `testCanOnlyWithdraw0WithoutDeposit()` -> Verify that nobody can withdraw if not deposited yet.
-* `testWithdrawTokensCorrectly()` -> 
-* `testCanNotClaimIfNotStaking()` ->
-* `testCanNotClaimIfNotElapsedTime()` ->
+* `testWithdrawTokensCorrectly()` -> Verify that users can withdraw tokens correctly before or after time staking period.
+* `testCanNotClaimIfNotStaking()` -> Verify that nobody can claim rewards if not staking.
+* `testCanNotClaimIfNotElapsedTime()` -> 
 * `testShouldRevertIfNotEth()` ->
 * `testCanClaimRewardsCorrectly()` ->
 
