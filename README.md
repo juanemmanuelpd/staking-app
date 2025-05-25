@@ -22,7 +22,7 @@ A staking app with a token based in ERC-20 protocol. Compiled and tested in Foun
 10. Run `forge coverage` to generate a code coverage report, which allows you to verify which parts of the "stakingApp.sol" and "stakingToken.sol" scripts code (in the "src" folder) are executed by the tests. This helps identify areas outside the coverage that could be exposed to errors/vulnerabilities.
 ## Functions (Staking Token) 💻
 * `mint()` -> Mints tokens for can stake it.
-## Functions (Staking App) 💻
+## Functions (Staking App) 📱
 * `modifyStakingPeriod()` -> Modify the time to lock your tokens and receive rewards.
 * `depositTokens()` -> Deposit a definite tokens to staking.
 * `withdrawTokens()` -> Withdraw all yours tokens in staking.
