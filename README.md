@@ -1,6 +1,6 @@
 # Staking App
 ## Overview 🪙
-A staking token based in ERC-20 protocol. Compiled and tested in Foundry.
+A staking app with a token based in ERC-20 protocol. Compiled and tested in Foundry.
 ## Features 📃
 * Create your own token ERC-20.
 * Deposit your tokens to staking and withdraws it when the period ends.
