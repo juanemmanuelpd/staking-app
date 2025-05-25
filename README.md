@@ -34,12 +34,12 @@ A staking token based in ERC-20 protocol. Compiled and tested in Foundry.
 * `testStakingAppCorrectlyDeployed()` -> Verify that the "Staking App" contract deployed correctly.
 * `testShouldRevertIfNotOwner()` -> The contract reverts if not owner who modify the staking period.
 * `testShouldModifyStakingPeriod()` -> Verify that the staking period be modify correctly by owner.
-* `testContractReceivesEthCorrectly()` -> Verify that the users can deposit ETH correctly to this staking smart contract.
+* `testContractReceivesEthCorrectly()` -> Verify that the owner can deposit ETH correctly to this staking smart contract.
 * `testIncorrectAmountShouldRevert()` -> Verify that user only deposit the definite quantity of ETH to staking.
-* `testDepositTokenCorrectly()` ->
-* `testUserCanNotDepositMoreThanOnce()` ->
-* `testCanOnlyWithdraw0WithoutDeposit()` ->
-* `testWithdrawTokensCorrectly()` ->
+* `testDepositTokenCorrectly()` -> Verify that update correctly the balance and period in staking of the user when deposit ETH.
+* `testUserCanNotDepositMoreThanOnce()` -> Verify that nobody can deposit two or more times the definite quantity ETH.
+* `testCanOnlyWithdraw0WithoutDeposit()` -> Verify that nobody can withdraw if not deposited yet.
+* `testWithdrawTokensCorrectly()` -> 
 * `testCanNotClaimIfNotStaking()` ->
 * `testCanNotClaimIfNotElapsedTime()` ->
 * `testShouldRevertIfNotEth()` ->
