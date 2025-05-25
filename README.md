@@ -21,29 +21,29 @@ A staking token based in ERC-20 protocol. Compiled and tested in Foundry.
 9. Run the command `forge test --match-test` followed by the name of a test function to test it and verify the smart contract functions are working correctly. For example, run `forge test --match-test testStakingTokenCorrectlyDeployed -vvvv` to test the `testStakingTokenCorrectlyDeployed` function.
 10. Run `forge coverage` to generate a code coverage report, which allows you to verify which parts of the "stakingApp.sol" and "stakingToken.sol" scripts code (in the "src" folder) are executed by the tests. This helps identify areas outside the coverage that could be exposed to errors/vulnerabilities.
 ## Functions (Staking Token) 💻
-* `mint()`
+* `mint()` -> Mints tokens for can stake it.
 ## Functions (Staking App) 💻
-* `modifyStakingPeriod()`
-* `depositTokens()`
-* `withdrawTokens()`
-* `claimRewards()`
-* `receive()`
+* `modifyStakingPeriod()` ->
+* `depositTokens()` ->
+* `withdrawTokens()` ->
+* `claimRewards()` ->
+* `receive()` ->
 ## Testing functions (Unit testing) ⌨️
-* `testStakingTokenMintsCorrectly()`
-* `testStakingTokenCorrectlyDeployed()`
-* `testStakingAppCorrectlyDeployed()`
-* `testShouldRevertIfNotOwner()`
-* `testShouldModifyStakingPeriod()`
-* `testContractReceivesEthCorrectly()`
-* `testIncorrectAmountShouldRevert()`
-* `testDepositTokenCorrectly()`
-* `testUserCanNotDepositMoreThanOnce()`
-* `testCanOnlyWithdraw0WithoutDeposit()`
-* `testWithdrawTokensCorrectly()`
-* `testCanNotClaimIfNotStaking()`
-* `testCanNotClaimIfNotElapsedTime()`
-* `testShouldRevertIfNotEth()`
-* `testCanClaimRewardsCorrectly()`
+* `testStakingTokenMintsCorrectly()` -> 
+* `testStakingTokenCorrectlyDeployed()` ->
+* `testStakingAppCorrectlyDeployed()` ->
+* `testShouldRevertIfNotOwner()` ->
+* `testShouldModifyStakingPeriod()` ->
+* `testContractReceivesEthCorrectly()` ->
+* `testIncorrectAmountShouldRevert()` ->
+* `testDepositTokenCorrectly()` ->
+* `testUserCanNotDepositMoreThanOnce()` ->
+* `testCanOnlyWithdraw0WithoutDeposit()` ->
+* `testWithdrawTokensCorrectly()` ->
+* `testCanNotClaimIfNotStaking()` ->
+* `testCanNotClaimIfNotElapsedTime()` ->
+* `testShouldRevertIfNotEth()` ->
+* `testCanClaimRewardsCorrectly()` ->
 
 CODE IS LAW!
 
