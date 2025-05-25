@@ -29,13 +29,13 @@ A staking token based in ERC-20 protocol. Compiled and tested in Foundry.
 * `claimRewards()` -> Claim the rewards for staking in the definite time.
 * `receive()` -> The admin enter to the smart contract the tokens that will be using to rewards the users for staking.
 ## Testing functions (Unit testing) ⌨️
-* `testStakingTokenMintsCorrectly()` ->  
-* `testStakingTokenCorrectlyDeployed()` ->
-* `testStakingAppCorrectlyDeployed()` ->
-* `testShouldRevertIfNotOwner()` ->
-* `testShouldModifyStakingPeriod()` ->
-* `testContractReceivesEthCorrectly()` ->
-* `testIncorrectAmountShouldRevert()` ->
+* `testStakingTokenMintsCorrectly()` ->  Verify that mints the correct quantity of token.
+* `testStakingTokenCorrectlyDeployed()` -> Verify that the "Staking Token" contract deployed correctly.
+* `testStakingAppCorrectlyDeployed()` -> Verify that the "Staking App" contract deployed correctly.
+* `testShouldRevertIfNotOwner()` -> The contract reverts if not owner who modify the staking period.
+* `testShouldModifyStakingPeriod()` -> Verify that the staking period be modify correctly by owner.
+* `testContractReceivesEthCorrectly()` -> Verify that the users can deposit ETH correctly to this staking smart contract.
+* `testIncorrectAmountShouldRevert()` -> Verify that user only deposit the definite quantity of ETH to staking.
 * `testDepositTokenCorrectly()` ->
 * `testUserCanNotDepositMoreThanOnce()` ->
 * `testCanOnlyWithdraw0WithoutDeposit()` ->
